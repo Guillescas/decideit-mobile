@@ -1,0 +1,12 @@
+{
+  "name": "decideit",
+  "displayName": "decideit",
+  "expo": {
+    "name": "decideit",
+    "slug": "decideit",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

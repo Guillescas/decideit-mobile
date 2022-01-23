@@ -1,7 +1,11 @@
 export default {
   colors: {
-    primary: '#000',
-    secondary: '#fff'
+    primary: '#FF5722',
+    secondary: '#EEEEEE',
+
+    details: '#2D4059',
+
+    background: '#000'
   },
 
   fonts: {

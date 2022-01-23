@@ -1,15 +1,12 @@
 import React, { ReactElement } from 'react';
+import { Header } from '../../components/Header';
 
 import * as Styles from './styles';
 
 const Dashboard = (): ReactElement => {
   return (
     <Styles.Container>
-      <Styles.Title>Opa</Styles.Title>
-      <Styles.Title>Opa</Styles.Title>
-      <Styles.Title>Op"</Styles.Title>
-      <Styles.Title>Opa</Styles.Title>
-      <Styles.Title>Opa</Styles.Title>
+      <Header />
     </Styles.Container>
   );
 };

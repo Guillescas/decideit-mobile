@@ -14,7 +14,6 @@ import {
 } from '@expo-google-fonts/poppins';
 
 import theme from './src/global/styles/theme';
-import { GlobalStyles } from './src/global/styles/global';
 
 export default function App() {
   const [fontsIsLoaded] = useFonts({
@@ -34,11 +33,9 @@ export default function App() {
         backgroundColor={theme.colors.background}
       />
 
-      <GlobalStyles>
-        <NavigationContainer>
-          <AppRoutes />
-        </NavigationContainer>
-      </GlobalStyles>
+      <NavigationContainer>
+        <AppRoutes />
+      </NavigationContainer>
     </ThemeProvider>
   );
 }
